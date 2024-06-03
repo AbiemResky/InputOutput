@@ -21,7 +21,7 @@ int main() {
 	}
 	outfile.close();
 	ifstream infile;
-	infile.open("namefile + txt",ios:: out);
+	infile.open(namefile + ".txt", ios:: in);
 
 	cout << endl << ">= membuka dan membaca file " << endl;
 	if (infile.is_open())
